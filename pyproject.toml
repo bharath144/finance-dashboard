@@ -1,0 +1,11 @@
+[project]
+name = "finance-dashboard"
+version = "0.1.0"
+description = "This project contains the source and other components for a Python based personal financial dashboard backed by a data ingestion and processing engines. Deploy it, drop in CSVs of credit card, bank account statements and visualize your financial health."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pandas>=3.0.3",
+    "plotly>=6.8.0",
+    "streamlit>=1.59.1",
+]

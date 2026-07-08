@@ -1,0 +1,22 @@
+# Python environment and cache
+__pycache__/
+*.pyc
+.venv/
+env/
+
+# Databases
+data/*.db
+data/*.sqlite
+
+# Sensitive data folders containing financial statements
+.file_watch/ingress/*
+.file_watch/processed/*
+
+# Prevent ignoring the folder structures themselves, just the contents
+!.file_watch/ingress/.gitkeep
+!.file_watch/processed/.gitkeep
+!data/.gitkeep
+
+# System specific files
+.DS_Store
+.env
